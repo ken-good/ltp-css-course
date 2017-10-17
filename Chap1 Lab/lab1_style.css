@@ -1,0 +1,18 @@
+    h1, h2, h3 {
+        background-color: lightblue;
+    }
+    
+    /* Used rgb value for yellow*/
+    ul p{
+        background-color: rgb(255,255,0);
+    }
+    
+    /* Use hexdecimal code for Orange */
+    p>a{
+        background-color: #FFA500;
+    }
+
+    /* Used preset color value for green. May have have to change text to a darker color*/
+    .greenTxt{
+        color: green;
+    }

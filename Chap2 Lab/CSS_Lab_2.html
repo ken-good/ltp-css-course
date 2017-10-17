@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab 2</title>
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet"> 
+    <style>
+        body{
+            background-image: url("yankees.png");
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-size: 400px;
+            margin-top: 0px;
+            
+        }
+        
+        
+        h1{
+           font-family: 'Fjalla One', sans-serif;
+        }
+        
+        ul{
+            list-style-type: square;
+        }
+        
+        #my_menu{
+            background-color: lightblue;
+        }    
+        
+        #my_menu .submenu ul{
+            display: none;
+            position: fixed;
+            padding: 10px;
+
+        }
+        
+        #my_menu .submenu:hover ul{
+            display: block;
+            position:relative;
+        }
+        
+        #my_menu td{
+            padding: 10px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    
+    <div id="my_menu">
+        <table>
+            <tr>
+                <td>
+                    <div class="submenu">
+                        About Me
+                        <ul>
+                            <li>Height: 6'2"</li>
+                            <li>Country:USA</li>
+                            <li>Job: USI Consulting Group</li>
+                            <li>Favorite Color: Blue</li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <h1>Welcome to Lab 2</h1>
+    <h2>4 Great Pets</h2>
+    <ul>
+        <li>Cats</li>
+        <li>Dogs</li>
+        <li>Birds</li>
+        <li>Hamsters</li>
+    </ul>
+    <h2>The 3 Largest US Cities</h2>
+    <ol reversed>
+        <li>Chicago</li>
+        <li>Los Angeles</li>
+        <li>New York</li>
+    </ol>
+</body>
+</html>
