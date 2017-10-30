@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lab 4</title>
+<style>
+    
+    h1{
+        
+        width: 300px; 
+        height: 50px;
+        background-color: red;
+    }
+    
+    h1:hover{
+        
+        -webkit-animation: colorChange 10s;
+        -webkit-animation-iteration-count: infinite;        
+        
+    }
+    
+    @-webkit-keyframes colorChange {
+        0% {background-color: red;}
+        17% {background-color: blue;}
+        33% {background-color: yellow;}
+        50% {background-color: green;}        
+        67% {background-color: orange;}
+        83% {background-color: purple;}
+        100% {background-color: red;}
+    }
+    
+    
+    </style>
+    
+<!--    For this fourth lab, you will be writing CSS code to animate the background color of the
+header tag (<h1>) in the HTML code below . Your animation should meet the following
+requirements:
+1. To start, you should set your <h1> header’s width to 300px, height to 50px, and
+background color to red.
+2. The animation should not start until the user hovers their mouse over the header.
+3. The animation should be 10 seconds long.
+4. Your animation should start with a red background, and then change to blue,
+then yellow, then green, then orange, and finally purple. At the end of the 10
+seconds, after the background has changed to purple, the animation should
+restart.
+5. As long as the user keeps their mouse hovered over the header, your animation
+should run infinitely, restarting each time it finishes.-->
+    
+    
+    
+    </head>
+    
+<body>
+<h1>Lab 4</h1>
+<p>Hold your mouse over the header above to see my animation!</p>
+</body>
+</html>
